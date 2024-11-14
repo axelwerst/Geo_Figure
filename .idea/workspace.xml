@@ -4,18 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b63260f3-61db-4c06-bdf0-d3201ae0be75" name="Changes" comment="" />
+    <list default="true" id="b63260f3-61db-4c06-bdf0-d3201ae0be75" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmail/axelwerst/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/axelwerst/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmail/axelwerst/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/axelwerst/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/axelwerst/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/axelwerst/AreaTest.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2oenD9cSGTrRjqqQx3Dn5t6QLG2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -24,12 +39,115 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.App.executor": "Run",
+    "Application.AreaTest.executor": "Run",
+    "JUnit.ShapeTest.calculatePerimeter.executor": "Run",
+    "JUnit.ShapeTest.executor": "Run",
+    "JUnit.ShapeTest.shouldCalculateArea.executor": "Run",
+    "JUnit.ShapeTest.testCalculateArea.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "geoFigur",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.gmail.axelwerst" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmail.axelwerst.App" />
+      <module name="Geo_Figure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmail.axelwerst.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShapeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Geo_Figure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmail.axelwerst.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gmail.axelwerst" />
+      <option name="MAIN_CLASS_NAME" value="com.gmail.axelwerst.ShapeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShapeTest.calculatePerimeter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Geo_Figure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmail.axelwerst.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gmail.axelwerst" />
+      <option name="MAIN_CLASS_NAME" value="com.gmail.axelwerst.ShapeTest" />
+      <option name="METHOD_NAME" value="calculatePerimeter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShapeTest.shouldCalculateArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Geo_Figure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmail.axelwerst.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gmail.axelwerst" />
+      <option name="MAIN_CLASS_NAME" value="com.gmail.axelwerst.ShapeTest" />
+      <option name="METHOD_NAME" value="shouldCalculateArea" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShapeTest.testCalculateArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Geo_Figure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmail.axelwerst.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gmail.axelwerst" />
+      <option name="MAIN_CLASS_NAME" value="com.gmail.axelwerst.ShapeTest" />
+      <option name="METHOD_NAME" value="testCalculateArea" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.ShapeTest" />
+        <item itemvalue="JUnit.ShapeTest.calculatePerimeter" />
+        <item itemvalue="JUnit.ShapeTest.testCalculateArea" />
+        <item itemvalue="JUnit.ShapeTest.shouldCalculateArea" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
